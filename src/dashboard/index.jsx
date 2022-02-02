@@ -5,22 +5,30 @@ import PageHeader from './PageHeader';
 import PageTitleWrapper from '../components/atoms/PageTitleWrapper';
 import Footer from '../components/organisms/Footer';
 
+<<<<<<< HEAD
 import AccountBalance from './AccountBalance';
 import Wallets from './Wallets';
 import AccountSecurity from './AccountSecurity';
 import WatchList from './WatchList';
 
+=======
+>>>>>>> platzimaster/deploy
 const Dashboard = () => {
     return (
         <React.Fragment>
             <Helmet>
+<<<<<<< HEAD
                 <title>Crypto Dashboard</title>
+=======
+                <title>Vacancies Dashboard</title>
+>>>>>>> platzimaster/deploy
             </Helmet>
             <PageTitleWrapper>
                 <PageHeader />
             </PageTitleWrapper>
             <Container maxWidth="lg">
                 <Grid container direction="row" justifyContent="center" alignItems="stretch" spacing={3}>
+<<<<<<< HEAD
                     <Grid item xs={12}></Grid>
                     <Grid item lg={8} xs={12}>
                         <Wallets />
@@ -31,6 +39,9 @@ const Dashboard = () => {
                     <Grid item xs={12}>
                         <WatchList />
                     </Grid>
+=======
+                    <Grid item xs={12} />
+>>>>>>> platzimaster/deploy
                 </Grid>
             </Container>
             <Footer />

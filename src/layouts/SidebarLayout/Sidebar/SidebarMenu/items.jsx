@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import BrightnessLowTwoToneIcon from '@mui/icons-material/BrightnessLowTwoTone';
 import TableChartTwoToneIcon from '@mui/icons-material/TableChartTwoTone';
 import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
@@ -15,10 +16,17 @@ const menuItems = [
         ],
     },
     {
+=======
+import ListAlt from '@mui/icons-material/ListAlt';
+
+const menuItems = [
+    {
+>>>>>>> platzimaster/deploy
         heading: 'Management',
         items: [
             {
                 name: 'Vacancies',
+<<<<<<< HEAD
                 icon: TableChartTwoToneIcon,
                 link: '/vacancies',
             },
@@ -115,6 +123,11 @@ const menuItems = [
                     },
                 ],
             },
+=======
+                icon: ListAlt,
+                link: '/vacancies',
+            },
+>>>>>>> platzimaster/deploy
         ],
     },
 ];

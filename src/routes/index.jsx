@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/function-component-definition */
 /* eslint-disable react/jsx-props-no-spreading */
+<<<<<<< HEAD
 // import React from 'react';
 // import { BrowserRouter, Routes as Switch, Route } from 'react-router-dom';
 // import Theme from 'Pages/Theme';
@@ -31,6 +32,8 @@
 //     </BrowserRouter>
 // );
 
+=======
+>>>>>>> platzimaster/deploy
 import React, { Suspense, lazy } from 'react';
 
 import { Navigate } from 'react-router-dom';
