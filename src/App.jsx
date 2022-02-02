@@ -2,27 +2,11 @@ import React from 'react';
 import { useRoutes } from 'react-router-dom';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import LocalizationProvider from '@mui/lab/LocalizationProvider';
-<<<<<<< HEAD
-
-=======
->>>>>>> platzimaster/deploy
 import { CssBaseline } from '@mui/material';
 import ThemeProvider from './theme/ThemeProvider';
 import routes from './routes';
 
 const App = () => {
-<<<<<<< HEAD
-  const content = useRoutes(routes);
-
-  return (
-    <ThemeProvider>
-      <LocalizationProvider dateAdapter={AdapterDateFns}>
-        <CssBaseline />
-        {content}
-      </LocalizationProvider>
-    </ThemeProvider>
-  );
-=======
     const content = useRoutes(routes);
     const loginURL = `https://platzimaster.us.auth0.com/authorize?response_type=${process.env.TOKEN}&client_id=${process.env.CLIENT_ID}&redirect_uri=${process.env.REDIRECT_URI}&audience=${process.env.AUDIENCE}`;
     
@@ -53,6 +37,5 @@ const App = () => {
             </LocalizationProvider>
         </ThemeProvider>
     );
->>>>>>> platzimaster/deploy
 };
 export default App;
